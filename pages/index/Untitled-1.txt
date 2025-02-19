@@ -1,0 +1,11 @@
+f:\cursor\blog-test-trae\images\food\
+  - hotpot.png    (火锅图标)
+  - bbq.png       (烤肉图标)
+  - spicy.png     (麻辣烫图标)
+  - chicken.png   (炸鸡图标)
+  - pizza.png     (披萨图标)
+  - sushi.png     (寿司图标)
+  - noodles.png   (面条图标)
+  - dumpling.png  (饺子图标)
+f:\cursor\blog-test-trae\images\
+  - pointer.png   (指针图标)

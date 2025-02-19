@@ -1,0 +1,19 @@
+<view class="container">
+  <view class="title">今天吃什么？</view>
+  
+  <view class="wheel-container">
+    <view class="pointer-container">
+      <view class="pointer"></view>
+    </view>
+    
+    <view class="wheel {{isRotating ? 'rotating' : ''}}" style="transform: rotate({{rotateAngle}}deg)">
+      <view class="wheel-item" wx:for="{{foodList}}" wx:key="index">
+        <text>{{item}}</text>
+      </view>
+    </view>
+  </view>
+
+  <button class="spin-btn {{isRotating ? 'disabled' : ''}}" bindtap="startRotation">
+    开始转动
+  </button>
+</view>
